@@ -1,0 +1,23 @@
+*{/* todos los elementos */
+    font-family: helvetica, sans-serif, monospace;
+    color: navy;
+  }
+  /* regla de CSS */
+.agrandar{
+  font-size: 150%;
+}
+/*selectores compuestos // descendiente, hijo, sibling, combinacion de
+selectores simples */
+
+/*pseduselectores de CSS*/
+li: first-child{
+  text-decoration: line-through;
+}
+li: before{
+  content:"+"
+}
+#descripcion .importante{
+  color: lime;
+}
+#descripcion > .importante{}
+#descripcion < .importante{}
